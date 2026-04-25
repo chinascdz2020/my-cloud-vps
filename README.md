@@ -45,7 +45,7 @@ cat <<EOF > ./config.json
     "tag": "vless-in",
     "listen": "::",
     "listen_port": 8080,
-    "users": [{ "uuid": "4ee06e75-4605-4cbd-896a-c88e7751cbbb" }],
+    "users": [{ "uuid": "6b582416-d36e-4a2f-82ea-a059eb108a22" }],
     "transport": { "type": "ws", "path": "/vless" }
   }],
   "outbounds": [{ "type": "direct", "tag": "direct" }]
@@ -65,11 +65,11 @@ ________________________________________
  
  配置参数对照表（以 v2rayN 为例）：
 •	地址 (Address): 填你的 GitHub 预览域名 (不带 https://)
-•	端口 (Port): 443 (核心重点！)
-•	用户 ID (UUID): 4ee06e75-4605-4cbd-896a-c88e7751cbbb（你自己的UUID）
+•	端口 (Port): 443 
+•	用户 ID (UUID): 6b582416-d36e-4a2f-82ea-a059eb108a22
 •	传输协议 (Network): ws
 •	伪装类型 (Header type): none
 •	路径 (Path): /vless
 •	底层传输安全 (TLS): tls
-•	SNI: 填你的 GitHub 预览域名
+•	SNI: 填你的 GitHub 预览域名(不带 https://)
 ________________________________________
