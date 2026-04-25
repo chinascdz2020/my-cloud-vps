@@ -31,7 +31,8 @@ tar -zxvf sing-box-1.10.1-linux-amd64.tar.gz
 cd sing-box-1.10.1-linux-amd64
 ________________________________________
 第五步：配置
-···cat <<EOF > ./config.json
+···
+cat <<EOF > ./config.json
 {
   "log": { "level": "info" },
   "inbounds": [{
@@ -44,7 +45,8 @@ ________________________________________
   }],
   "outbounds": [{ "type": "direct", "tag": "direct" }]
 }
-EOF···
+EOF
+···
 ________________________________________
 第六步：启动
 ./sing-box run -c ./config.json
