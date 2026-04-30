@@ -1,10 +1,9 @@
 ________________________________________
 第一步：创建一个新的仓库 (Repository)
-Codespaces 必须依托于一个仓库才能运行。
 1.	在 GitHub 首页（右上角），点击加号 + 图标，选择 New repository。
-2.	Repository name: 随便起个名字，比如 my-cloud-vps。
-3.	Public/Private: 建议选 Private（私有），这样别人看不到你的服务器配置。
-4.	勾选 Add a README file（这能确保仓库不是空的，方便直接创建空间）。
+2.	Repository name: 随便起个名字
+3.	Public/Private: 建议选 Private
+4.	勾选 Add a README file
 5.	点击底部的绿色按钮 Create repository。
 ________________________________________
 第二步：启动 Codespace 环境
@@ -67,13 +66,13 @@ nohup ./sing-box run -c ./config.json > sing-box.log 2>&1 &
  
  配置参数对照表（以 v2rayN 为例）：
  ~~~~~~
-•	地址 (Address): 填你的 GitHub 预览域名 (不带 https://)
+•	地址 (Address): 
 •	端口 (Port): 443 
 •	用户 ID (UUID): 6b582416-d36e-4a2f-82ea-a059eb108a22
 •	传输协议 (Network): ws
 •	伪装类型 (Header type): none
 •	路径 (Path): /vless
 •	底层传输安全 (TLS): tls
-•	SNI: 填你的 GitHub 预览域名(不带 https://)
+•	SNI: 
 ~~~~~~
 ________________________________________
